@@ -1,95 +1,59 @@
 ---
 layout: post
-title: Sample blog post to learn markdown tips
-subtitle: There's lots to learn!
-gh-repo: daattali/beautiful-jekyll
-gh-badge: [star, fork, follow]
-tags: [test]
+title: Welcome to my corner of the internet
+subtitle: Where biomedical engineering meets data, strategy, and curiosity
+gh-badge: [follow]
+tags: [introduction, biomedical, data, healthcare]
 comments: true
-mathjax: true
-author: Bill Smith
+author: Carlos Pérez de Arenaza
 ---
 
 {: .box-success}
-This is a demo post to show you how to write blog posts with markdown.  I strongly encourage you to [take 5 minutes to learn how to write in markdown](https://markdowntutorial.com/) - it'll teach you how to transform regular text into bold/italics/tables/etc.<br/>I also encourage you to look at the [code that created this post](https://raw.githubusercontent.com/daattali/beautiful-jekyll/master/_posts/2020-02-28-sample-markdown.md) to learn some more advanced tips about using markdown in Beautiful Jekyll.
+👋 **Hello!** I'm Carlos Pérez de Arenaza García — Biomedical Engineer, data enthusiast, and chronic overthinker about the future of healthcare. This is my personal space to share what I'm learning, building, and thinking about.
 
-**Here is some bold text**
+---
 
-## Here is a secondary heading
+## Who I am
 
-[This is a link to a different site](https://deanattali.com/) and [this is a link to a section inside this page](#local-urls).
+I'm a Biomedical Engineer with a deep interest in the intersection of **engineering, medicine, and data science**. I believe we're living through one of the most exciting moments in the history of healthcare and also one of the most complex.
 
-Here's a table:
+From AI-assisted diagnostics to wearable biosensors to clinical decision support, the tools available to clinicians and engineers today are extraordinary. But having great tools is only the beginning. Using them well ethically, rigorously, and with genuine impact on patients that's the real challenge.
 
-| Number | Next number | Previous number |
-| :------ |:--- | :--- |
-| Five | Six | Four |
-| Ten | Eleven | Nine |
-| Seven | Eight | Six |
-| Two | Three | One |
+That's the space I want to work in.
 
-You can use [MathJax](https://www.mathjax.org/) to write LaTeX expressions. For example:
-When \\(a \ne 0\\), there are two solutions to \\(ax^2 + bx + c = 0\\) and they are $$x = {-b \pm \sqrt{b^2-4ac} \over 2a}.$$
+---
 
-How about a yummy crepe?
+## What you'll find here
 
-![Crepe](https://beautifuljekyll.com/assets/img/crepe.jpg)
+| Topic | What to expect |
+| :--- | :--- |
+| 🫀 Biomedical Engineering | Signal processing, medical devices, imaging |
+| 🤖 AI in Healthcare | Practical applications, limitations, and ethics |
+| 📊 Data & Analysis | Methods, tools, and lessons learned |
+| 🔬 Research & Projects | Things I'm building or experimenting with |
+| 💭 Thoughts & Essays | Longer reflections on healthcare and technology |
 
-It can also be centered!
+---
 
-![Crepe](https://beautifuljekyll.com/assets/img/crepe.jpg){: .mx-auto.d-block :}
+## Why I'm writing this
 
-Here's a code chunk:
+I've learned a huge amount from people who share their work openly — blog posts, GitHub repos, papers, tutorials. This is my attempt to give something back and to think more clearly by writing things down.
 
-~~~
-var foo = function(x) {
-  return(x + 5);
-}
-foo(3)
-~~~
+Writing forces precision. It's easy to feel like you understand something until you try to explain it. So this blog is also, honestly, a tool for my own learning.
 
-And here is the same code with syntax highlighting:
+---
 
-```javascript
-var foo = function(x) {
-  return(x + 5);
-}
-foo(3)
-```
+## A few things I believe
 
-And here is the same code yet again but with line numbers:
+- Data doesn't save lives. **Decisions** save lives — but good data makes those decisions better.
+- The best biomedical engineers understand *why* clinicians do what they do, not just *what* the measurements say.
+- Ethical AI in healthcare isn't a constraint on innovation. It's a prerequisite for it.
 
-{% highlight javascript linenos %}
-var foo = function(x) {
-  return(x + 5);
-}
-foo(3)
-{% endhighlight %}
+---
 
-## Boxes
-You can add notification, warning and error boxes like this:
+## Let's talk
 
-### Notification
+If you're working on something interesting in biomedical engineering, digital health, or data science — or if you just want to discuss an idea — reach out:
 
-{: .box-note}
-**Note:** This is a notification box.
+🔗 [LinkedIn](https://www.linkedin.com/in/carlos-p%C3%A9rez-de-arenaza-garc%C3%ADa-4922b1273/)
 
-### Warning
-
-{: .box-warning}
-**Warning:** This is a warning box.
-
-### Error
-
-{: .box-error}
-**Error:** This is an error box.
-
-## Local URLs in project sites {#local-urls}
-
-When hosting a *project site* on GitHub Pages (for example, `https://USERNAME.github.io/MyProject`), URLs that begin with `/` and refer to local files may not work correctly due to how the root URL (`/`) is interpreted by GitHub Pages. You can read more about it [in the FAQ](https://beautifuljekyll.com/faq/#links-in-project-page). To demonstrate the issue, the following local image will be broken **if your site is a project site:**
-
-![Crepe](/assets/img/crepe.jpg)
-
-If the above image is broken, then you'll need to follow the instructions [in the FAQ](https://beautifuljekyll.com/faq/#links-in-project-page). Here is proof that it can be fixed:
-
-![Crepe]({{ '/assets/img/crepe.jpg' | relative_url }})
