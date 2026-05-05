@@ -1,10 +1,5 @@
 ---
 layout: page
-title: About me
-subtitle: A brief personal description
----
----
-layout: page
 title: Carlos Pérez de Arenaza
 subtitle: Biomedical Engineer · Data & Strategy
 ---
