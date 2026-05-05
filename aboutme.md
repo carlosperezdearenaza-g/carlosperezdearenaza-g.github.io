@@ -6,15 +6,15 @@ subtitle: Biomedical Engineer · Data & Strategy
 
 ## About me
 
-I'm **Carlos Pérez de Arenaza García**, a Biomedical Engineer based in Spain. My work sits at the crossroads of medicine, engineering, and data — a space I find endlessly fascinating.
+I'm **Carlos Pérez de Arenaza García**, a Biomedical Engineer based in Spain. My work sits at the crossroads of medicine, engineering, and data, a space I find endlessly fascinating.
 
 I'm driven by the belief that better data and smarter systems can lead to better patient outcomes. Whether it's signal processing, medical imaging, clinical data analysis, or healthcare strategy, I enjoy working on problems that actually matter.
 
-I'm equally comfortable in the lab and the boardroom — translating technical complexity into strategic insight is one of my favourite challenges.
+I'm equally comfortable in the lab and the boardroom, translating technical complexity into strategic insight is one of my favourite challenges.
 
 <hr class="section-divider"/>
 
-## Areas of expertise
+## Areas of interest
 
 <span class="tag-pill">🫀 Biomedical Engineering</span>
 <span class="tag-pill">📊 Data Analysis</span>
@@ -37,23 +37,13 @@ I'm equally comfortable in the lab and the boardroom — translating technical c
 
 <hr class="section-divider"/>
 
-> *"The goal of medicine is not just to treat disease — it's to understand it. Good engineering and good data get us closer to that goal."*
+> *"Here I should insert some interesting phrase."*
 
 
 
 
 
 
-
-
-My name is Carlos Pérez de Arenaza. I'm learning how to make webpages here in github, I hope you like it!
-
-### Education
-
-- Biomedical Engineering degree at UPF (2021 - 2025)
-- Master in Health and Data Scienceat URV (2025 - present)
-
-### Experience
 - Research assistant at the Synbio lab (2024 - 2025)
 - Material Resources Technician at SJD (2025 - 2026)
 - Data Science Trainee at Boehringer Ingelheim (2026 - present)
