@@ -5,7 +5,7 @@ subtitle: Where biomedical engineering meets data, strategy, and curiosity
 gh-badge: [follow]
 tags: [introduction, biomedical, data, healthcare]
 comments: true
-author: Carlos Pérez de Arenaza
+author: Carlos Pérez de Arenaza García
 ---
 
 {: .box-success}
