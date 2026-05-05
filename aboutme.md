@@ -37,12 +37,11 @@ I'm equally comfortable in the lab and the boardroom, translating technical comp
 
 <hr class="section-divider"/>
 
-> *"Here I should insert some interesting phrase."*
+> *"Here I should insert some interesting phrase."*<
 
+<hr class="section-divider"/>
 
-
-
-
+## My work Experience
 
 - Research assistant at the Synbio lab (2024 - 2025)
 - Material Resources Technician at SJD (2025 - 2026)
