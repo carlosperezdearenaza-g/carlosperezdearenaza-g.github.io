@@ -1,0 +1,117 @@
+---
+layout: post
+title: Cloud computing in biomedicine
+subtitle: Scaling genomics analysis beyond the limits of local infrastructure
+gh-badge: [follow]
+tags: [cloud, genomics, bioinformatics, biomedical]
+comments: true
+author: [Tu Nombre]
+---
+
+{: .box-success}
+☁️ **Cloud computing is transforming biomedicine.** From genomics to clinical data analysis, it allows researchers to process massive datasets without relying on local infrastructure. In this post, I explore how cloud platforms are enabling large-scale genomic analysis.
+
+---
+
+## The problem
+
+Modern biomedicine generates **huge amounts of data**.
+
+A single human genome sequencing experiment can produce hundreds of gigabytes of raw data. Scaling this to thousands of patients quickly becomes a computational bottleneck.
+
+Traditionally, this required:
+- Expensive local servers  
+- Dedicated IT infrastructure  
+- Complex maintenance  
+
+This is where cloud computing changes the game.
+
+---
+
+## The cloud solution
+
+Cloud platforms like **Google Cloud Platform (GCP)** or **Amazon Web Services (AWS)** allow researchers to:
+
+- Store massive datasets efficiently  
+- Run parallelized analyses on demand  
+- Share data and pipelines across institutions  
+- Scale resources dynamically depending on needs  
+
+One particularly interesting application is **cloud-based genomic analysis pipelines**.
+
+---
+
+## Case study: Cloud-based genomics with GATK
+
+{: .box-note}
+A widely used framework for genomic analysis is the **Genome Analysis Toolkit (GATK)** developed by the Broad Institute, which has been adapted to run efficiently in cloud environments.
+
+A key paper describing this transition is:
+
+> Van der Auwera, G. A., & O'Connor, B. D. (2020). *Genomics in the Cloud: Using Docker, GATK, and WDL in Terra*. O'Reilly Media.
+
+This work introduces **Terra**, a cloud-native platform built on Google Cloud that allows users to run reproducible genomics workflows.
+
+---
+
+## How it works
+
+Instead of running pipelines locally, researchers can:
+
+1. Upload sequencing data to the cloud  
+2. Use predefined workflows (WDL – Workflow Description Language)  
+3. Execute analyses in parallel across many virtual machines  
+4. Store and share results seamlessly  
+
+This approach removes the need for local high-performance computing.
+
+---
+
+## Why this matters
+
+| Challenge | Cloud advantage |
+| :--- | :--- |
+| Data size | Virtually unlimited storage |
+| Compute power | On-demand scalability |
+| Collaboration | Shared environments |
+| Reproducibility | Standardized pipelines |
+
+Cloud computing doesn’t just make things faster — it **changes how research is done**.
+
+---
+
+## Limitations and concerns
+
+{: .box-warning}
+Despite its advantages, cloud computing in biomedicine raises important challenges:
+
+- 🔒 **Data privacy**: Genomic data is highly sensitive  
+- 💸 **Cost management**: Poorly optimized workflows can become expensive  
+- 📦 **Data transfer**: Uploading large datasets can be slow  
+- ⚖️ **Regulation**: Compliance with healthcare data laws (GDPR, HIPAA)
+
+---
+
+## My take
+
+Cloud computing feels less like an incremental improvement and more like a **shift in paradigm**.
+
+Instead of asking *“Do we have enough compute?”*, researchers can now ask:
+
+> *“What question do we want to answer?”*
+
+That shift lowers barriers and opens the door to more ambitious, data-intensive biomedical research.
+
+---
+
+## References
+
+- Van der Auwera, G. A., & O'Connor, B. D. (2020). *Genomics in the Cloud: Using Docker, GATK, and WDL in Terra*. O'Reilly Media.  
+- Grossman, R. L. (2019). *Data Lakes, Clouds, and Commons: A Review of Platforms for Analyzing and Sharing Genomic Data*. Trends in Genetics.  
+- Stephens, Z. D. et al. (2015). *Big Data: Astronomical or Genomical?* PLOS Biology.  
+
+---
+
+## Final note
+
+Cloud platforms are becoming a core layer of modern biomedicine. Understanding how to use them effectively is quickly turning into a **fundamental skill** for anyone working with biological data.
