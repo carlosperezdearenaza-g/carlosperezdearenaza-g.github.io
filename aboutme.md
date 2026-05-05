@@ -4,14 +4,14 @@ title: About me
 subtitle: A brief personal description
 ---
 
-My name is Ferran Aran, I am from Lleida and I love learning new skills. Have a look at my background below!
+My name is Carlos Pérez de Arenaza. I'm learning how to make webpages here in github, I hope you like it!
 
 ### Education
 
-- Computer science degree at UdL (2019 - 2022)
-- Master in computer science at UdL (2022 - 2024)
-- PhD in RL applied to energy (2024 - present)
+- Biomedical Engineering degree at UPF (2021 - 2025)
+- Master in Health and Data Scienceat URV (2025 - present)
 
 ### Experience
-- Research assistant on MILP at UdL (2022 - 2023)
-- R&D as Data Scientist at GFT Technologies (2023 - present)
+- Research assistant at the Synbio lab (2024 - 2025)
+- Material Resources Technician at SJD (2025 - 2026)
+- Data Science Trainee at Boehringer Ingelheim (2026 - present)
